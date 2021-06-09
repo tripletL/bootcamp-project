@@ -1,3 +1,7 @@
+#OLD MACDONALD: Write a function that capitalizes the first and fourth letters of a name
+#old_macdonald('macdonald') --> MacDonald
+
+Note: 'macdonald'.capitalize() returns 'Macdonald
 def old_macdonald(name):
     letters = list(name)
     for index in range(len(name)):
@@ -7,4 +11,4 @@ def old_macdonald(name):
             letters[index] = letters[index].upper()
     return "".join(letters)
 
-print(old_macdonald('namesssss'))
+print(old_macdonald(''))
